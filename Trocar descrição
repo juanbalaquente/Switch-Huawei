@@ -1,0 +1,8 @@
+display interface description 
+sys 
+(selecione a porta)
+interface xge 0/0/X (acessar porta)
+display this (verificar a porta )
+description XXXX   (adicionar o novo nome a porta )
+
+undo description para retirar descrição 
