@@ -1,0 +1,15 @@
+1-  abrir mapa e localizar olt 
+2-  verificar qual lado foi rompido para informar o responsavel
+3-  iniciar a virada de rede 
+4-  dis	int desc veririficar as vlans no switch ita e abi
+5-  retirar as configuraçoes atuais salvas (undo) no ita para virar para o aguas 
+6-  abrir o switch aguas para virar a rede na redundância
+7-  criar as vlans que vao receber as configuraçoes de mpls (vlan (numero vlan)name (nome da vlan)description(descição da nova vlan como OLT_GERENCIA_FATIMA) )
+8-  apos criar todas as interfaces das vlans no novo switch sair da mesma 
+9-  abrir a interface criada (interface vlan XXX)
+10- aplicar mpls l2vc (MPLS L2VC xx.xx.xx.x(com o id referente ao numero da vlan))
+11- apos criar tudo verificar nas interface gigabit se estao up com acesso ao tunel
+12- verificar nas descritas vlans se estao com o ip e id corretas (interface vlan xxx -- display this )
+
+
+
